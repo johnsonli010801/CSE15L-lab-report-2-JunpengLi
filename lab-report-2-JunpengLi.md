@@ -29,6 +29,23 @@ Literally, the failure-inducing input `[a link!] google.com` has no parenthesis 
 The way to fix this bug is to check the comparision before running the while loop.For instance, if the index of the open-parenthesis is not -1 which typically means it exists in the test file, the while loop will run.
 >
 ___
+# Test 2 with no brackets in the link format:
+___
+*Code editing for solving the issue:*
+>
+![image](s2.PNG)
+>
+[Link with parenthesis but no bracket](https://github.com/lhailani/markdown-parse/blob/main/md3.md)
+>
+Output symptom:
+```
+[youtube.com]
+```
+>
+In particular, the output should be an empty list if the link is not in the correct format.The failure-inducing input`link (youtube.com)` would make the program has a bug like it can still run normally without the bracket and printing out the link. The symptom will correspondingly relate to the bug because since the bug allows the program to run normally, the output will still come out with a link.
+>
+Instead, what our group have done is to add one more conditions to make the program not run with the bracket and parenthesis within the link format.
+
 
 
 
