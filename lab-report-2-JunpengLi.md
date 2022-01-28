@@ -14,7 +14,7 @@ ___
 ![image](s1.png)
 >
 Link to the test file for a failure-inducing input:
-[link](https://github.com/rinakaura/markdown-parse/blob/main/new-file.md)
+[failure-inducing input test-file](https://github.com/rinakaura/markdown-parse/blob/main/new-file.md)
 >
 The symptom of this failure-inducing input:
 ```
