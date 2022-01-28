@@ -8,7 +8,7 @@
 **CSE 15L**
 >
 *In this lab report, I will introduce the three types of code changes in the `MarkdownParse.java` file in particular to resolve three different issues*
-___
+>
 # Test 1 with no parenthesis in the link format
 ___
 ![image](s1.png)
