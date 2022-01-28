@@ -33,7 +33,7 @@ ___
 ___
 *Code editing for solving the issue:*
 >
-![image](s2.PNG)
+![image](s2.png)
 >
 [Link with parenthesis but no bracket](https://github.com/lhailani/markdown-parse/blob/main/md3.md)
 >
