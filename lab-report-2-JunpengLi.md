@@ -48,7 +48,6 @@ ___
 **ScreenShot of the Symptom**:
 >
 ![image](m2.JPG)
-___
 ```
 [youtube.com]
 ```
@@ -72,7 +71,6 @@ ___
 **ScreenShot of the Symptom**:
 >
 ![image](m3.JPG)
-___
 ```
 [google.com]
 ```
