@@ -25,6 +25,7 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
         at MarkdownParse.main(MarkdownParse.java:26) 
 
 ```
+>
 ScreenShot of the Symptom:
 >
 ![image](m1.JPG)
@@ -46,10 +47,11 @@ ___
 ```
 [youtube.com]
 ```
+>
 ScreenShot of the Symptom:
 >
 ![image](m2.JPG)
->
+
 >
 In particular, the output should be an empty list if the link is not in the correct format.The failure-inducing input`link (youtube.com)` would make the program have a bug like it can still run normally without the bracket and printing out the link as long as the link is inside the parenthesis. The symptom will correspondingly relate to the bug because since the bug allows the program to run normally, the output will still come out with a link.
 >
@@ -69,10 +71,10 @@ ___
 ```
 [google.com]
 ```
+>
 ScreenShot of the Symptom:
 >
 ![image](m3.JPG)
->
 >
 ___
 For this failure-inducing input `[a link]                                                                      (google.com)`, there exists space between the closed bracket and the open parenthsis which is literally the incorrect format of the link or the bug. Normally if we did not modify the code, the program can still consider the input as the correct format of link,and it will compile and run the program then output as a correct link with this particular bug. This bug which is from the failure-inducing input relatively caused the symptom to output as a correct link.
