@@ -26,7 +26,7 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
 
 ```
 >
-**Screenshot of the Symptom:
+**Screenshot of the Symptom**:
 >
 ![image](m1.JPG)
 >
@@ -48,7 +48,7 @@ ___
 [youtube.com]
 ```
 >
-**ScreenShot of the Symptom:
+**ScreenShot of the Symptom**:
 >
 ![image](m2.JPG)
 
@@ -73,7 +73,7 @@ ___
 [google.com]
 ```
 >
-**ScreenShot of the Symptom:
+**ScreenShot of the Symptom**:
 >
 ![image](m3.JPG)
 >
