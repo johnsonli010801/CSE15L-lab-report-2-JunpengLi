@@ -54,7 +54,7 @@ ___
 In particular, the output should be an empty list if the link is not in the correct format.The failure-inducing input`link (youtube.com)` would make the program have a bug like it can still run normally without the bracket and printing out the link as long as the link is inside the parenthesis. The symptom will correspondingly relate to the bug because since the bug allows the program to run normally, the output will still come out with a link.
 >
 Instead, what our group have done is to add one more conditions to make the program not run the loop without both the bracket and parenthesis within the link format.
-
+>
 # Code Change for Test case 3 where the link is in correct format but the parenthesis
 *The way to resolve this issue*
 >
