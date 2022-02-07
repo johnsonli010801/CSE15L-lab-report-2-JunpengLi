@@ -27,7 +27,6 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
         at java.base/java.lang.String.substring(String.java:1902)
         at MarkdownParse.getLinks(MarkdownParse.java:18)
         at MarkdownParse.main(MarkdownParse.java:26) 
-
 ```
 ___
 >
@@ -74,7 +73,6 @@ ___
 ```
 [google.com]
 ```
->
 ___
 For this failure-inducing input `[a link]                                                                      (google.com)`, there exists space between the closed bracket and the open parenthsis which is literally the incorrect format of the link or the bug. Normally if we did not modify the code, the program can still consider the input as the correct format of link,and it will compile and run the program then output as a correct link with this particular bug. This bug which is from the failure-inducing input relatively caused the symptom to output as a correct link.
 Actually, the correct format of link should be no space after the closed bracket and before the open parenthesis.
