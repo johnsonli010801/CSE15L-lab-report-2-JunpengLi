@@ -9,6 +9,7 @@
 >
 *In this lab report, I will introduce the three types of code changes in the `MarkdownParse.java` file in particular to resolve three different issues*
 >
+___
 # Test 1 with no parenthesis in the link format
 ___
 ![image](s1.png)
@@ -56,6 +57,7 @@ In particular, the output should be an empty list if the link is not in the corr
 Instead, what our group have done is to add one more conditions to make the program not run the loop without both the bracket and parenthesis within the link format.
 >
 # Code Change for Test case 3 where the link is in correct format but the parenthesis
+___
 *The way to resolve this issue*
 >
 ![image](s3.png)
