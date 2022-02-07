@@ -64,6 +64,7 @@ Instead, what our group have done is to add one more conditions to make the prog
 >
 ___
 [link with correct format but the parenthesis after the bracket is far away](https://github.com/johnsonli010801/markdown-parse/edit/main/cs1.md)
+>
 **The file show the failure-inducing input as normal input, we have to click on edit on the link above in order to see what's the difference between this one with the actual correct one. This one should contain some spaces after the close bracket and before the open parenthesis**
 >
 ___
