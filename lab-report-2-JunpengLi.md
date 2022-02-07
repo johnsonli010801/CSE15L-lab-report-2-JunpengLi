@@ -17,6 +17,10 @@ Link to the test file for a failure-inducing input:
 [failure-inducing input test-file](https://github.com/rinakaura/markdown-parse/blob/main/new-file.md)
 >
 ## The symptom of this failure-inducing input:
+**Screenshot of the Symptom**:
+>
+![image](m1.JPG)
+>
 ```
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 20
         at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3756)
@@ -25,10 +29,7 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
         at MarkdownParse.main(MarkdownParse.java:26) 
 
 ```
->
-**Screenshot of the Symptom**:
->
-![image](m1.JPG)
+___
 >
 Literally, the failure-inducing input `[a link!] google.com` has no parenthesis in the link format which will cause the line ` toReturn.add(markdown.substring(openParen + 1, closeParen));`to have a index out of bound bug because the index of *openParen* and *closeParen* are *-1*. Therefore, as long as the user complies and runs the java file with this failure-inducing input, an symptom called *StringIndexOutOfBoundException* will be thrown out.
 >
@@ -44,14 +45,13 @@ ___
 [Link with parenthesis but no bracket](https://github.com/lhailani/markdown-parse/blob/main/md3.md)
 >
 ## Output symptom:
-```
-[youtube.com]
-```
->
 **ScreenShot of the Symptom**:
 >
 ![image](m2.JPG)
-
+___
+```
+[youtube.com]
+```
 >
 In particular, the output should be an empty list if the link is not in the correct format.The failure-inducing input`link (youtube.com)` would make the program have a bug like it can still run normally without the bracket and printing out the link as long as the link is inside the parenthesis. The symptom will correspondingly relate to the bug because since the bug allows the program to run normally, the output will still come out with a link.
 >
@@ -69,13 +69,13 @@ ___
 >
 ___
 ## Symptom output:
-```
-[google.com]
-```
->
 **ScreenShot of the Symptom**:
 >
 ![image](m3.JPG)
+___
+```
+[google.com]
+```
 >
 ___
 For this failure-inducing input `[a link]                                                                      (google.com)`, there exists space between the closed bracket and the open parenthsis which is literally the incorrect format of the link or the bug. Normally if we did not modify the code, the program can still consider the input as the correct format of link,and it will compile and run the program then output as a correct link with this particular bug. This bug which is from the failure-inducing input relatively caused the symptom to output as a correct link.
