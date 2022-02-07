@@ -26,6 +26,7 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
 
 ```
 ScreenShot of the Symptom:
+>
 ![image](m1.JPG)
 >
 Literally, the failure-inducing input `[a link!] google.com` has no parenthesis in the link format which will cause the line ` toReturn.add(markdown.substring(openParen + 1, closeParen));`to have a index out of bound bug because the index of *openParen* and *closeParen* are *-1*. Therefore, as long as the user complies and runs the java file with this failure-inducing input, an symptom called *StringIndexOutOfBoundException* will be thrown out.
@@ -46,6 +47,7 @@ ___
 [youtube.com]
 ```
 ScreenShot of the Symptom:
+>
 ![image](m2.JPG)
 >
 >
@@ -68,6 +70,7 @@ ___
 [google.com]
 ```
 ScreenShot of the Symptom:
+>
 ![image](m3.JPG)
 >
 >
